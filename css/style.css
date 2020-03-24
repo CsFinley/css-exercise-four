@@ -13,7 +13,24 @@ body {
 
 
 .container {
-  width: 375px;
+  width: 100%;
+}
+
+
+@media screen and (min-width: 575px){
+  .preview-baku, .preview-london, .preview-madrid, .preview-rome {
+    display: inline-block;
+    margin: 1%;
+    width: 20%;
+  }
+}
+
+
+@media screen and (min-width: 991px){
+  .container {
+    margin: 1%;
+    width: 15%;
+  }
 }
 
 
@@ -28,7 +45,8 @@ h1 {
   padding: 2px 0px 200px 10px;
   margin-bottom: 20px;
   background: url(/images/baku.jpg);
-  background-size: 100%
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 
@@ -37,7 +55,8 @@ h1 {
   padding: 2px 0px 200px 10px;
   margin-bottom: 20px;
   background: url(/images/london.png);
-  background-size: 100%
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 
@@ -46,7 +65,8 @@ h1 {
   padding: 2px 0px 200px 10px;
   margin-bottom: 20px;
   background: url(/images/madrid.jpg);
-  background-size: 100%
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 
@@ -55,5 +75,6 @@ h1 {
   padding: 2px 0px 200px 10px;
   margin-bottom: 20px;
   background: url(/images/rome.jpg);
-  background-size: 100%
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
