@@ -13,24 +13,37 @@ body {
 }
 
 
-@media screen and (min-width: 768px) { /* @media query */
-  .preview-baku, .preview-london {
-    margin: 2%;
-    width: 30%;
-  }
-
-  .preview-madrid, .preview-rome {
-    margin: 2%;
-    width: 30%
-  }
-}
-
-
 h1 {
   margin: 20px
 }
 
 
+@media screen and (min-width: 768px) { /* @media query */
+  .preview-baku, .preview-london {
+    margin: 10px;
+    width: 30%;
+    display: block;
+    float: left;
+  }
+
+  .preview-madrid, .preview-rome {
+    margin: 10px;
+    width: 30%;
+    display: block;
+    float: left;
+  }
+}
+
+
+@media screen and (min-width: 991px) { /* @media query */
+  .preview-baku, .preview-london, .preview-madrid, .preview-rome {
+    margin: 2%;
+    width: 15%;
+    display: inline-block;
+    float: left;
+  }
+
+}
 .preview-baku {
   text-align: left;
   padding: 2px 0px 200px 10px;
