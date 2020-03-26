@@ -19,8 +19,8 @@ body {
 
 @media screen and (min-width: 575px){
   .preview-baku, .preview-london, .preview-madrid, .preview-rome {
-    display: inline-block;
-    margin: 1%;
+    display: inline;
+    margin: 2%;
     width: 20%;
   }
 }
